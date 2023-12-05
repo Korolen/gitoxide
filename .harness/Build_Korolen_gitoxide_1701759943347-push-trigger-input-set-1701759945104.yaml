@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Korolen_gitoxide_1701759943347-push-trigger-input-set
+  identifier: Build_Korolen_gitoxide_1701759943347pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Korolen_gitoxide_1701759943347
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
